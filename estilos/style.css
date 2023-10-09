@@ -24,6 +24,27 @@ main {
     height: 100vh;
 }
 
+#redes-sociais {
+    text-align: right;
+    padding: 20px 20px 0 0;
+}
+
+#redes-sociais img {
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    
+    border: 2px solid rgba(255, 255, 255, 0.460);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .3s;
+    }
+
 #telefone {
     position: absolute;
     top: 50%;
